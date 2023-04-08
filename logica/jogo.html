@@ -1,0 +1,214 @@
+<!-- <meta charset="UTF-8">
+
+<script>
+
+	function pulaLinha() {
+
+		document.write("<br>");
+		document.write("<br>");
+	}
+
+	function mostra(frase) {
+
+		document.write(frase);
+		pulaLinha();
+	}
+
+	var numeroPensado = 5;
+	var chute = parseInt(prompt("digite seu chute!"));
+	var numeroPensado = 5;
+	var chute = parseInt(prompt("digite seu chute!"));
+
+	if (chute == numeroPensado) {
+		mostra("Você acertou!");
+
+	} else {
+		mostra("Você errou, o número pensado foi " + numeroPensado);
+	}
+
+</script> -->
+
+<!-- <meta charset="UTF-8">
+
+<script>
+
+	function pulaLinha() {
+		document.write("<br>");
+	}
+
+	function mostra(frase) {
+		document.write(frase);
+		pulaLinha();
+	}
+
+	var quantidadeCarbono1 = parseInt(prompt("Quantidade de carbono substância 1"));
+	var quantidadeCarbono2 = parseInt(prompt("Quantidade de carbono substância 2"));
+
+	quantidadeCarbono2 = quantidadeCarbono2 + 2;
+
+	if (quantidadeCarbono1 == quantidadeCarbono2) {
+
+		mostra("Acho que são substâncias parecidas");
+	} else {
+
+		mostra("São substâncias bem diferentes");
+	}
+
+</script> -->
+
+<!-- <meta charset="UTF-8">
+
+<script>
+	function pulaLinha() {
+		document.write("<br>");
+	}
+
+	function mostra(frase) {
+		document.write(frase);
+		pulaLinha();
+	}
+
+	var idade = parseInt(prompt("Qual é sua idade"));
+	var temCarteira = prompt("Tem carteira? Responda S ou N");
+
+	if (idade >= 18 && temCarteira == "S") {
+		mostra("Pode dirigir");
+	} else {
+		mostra("Não pode dirigir");
+	}
+</script> -->
+
+<!-- <meta charset="UTF-8">
+<script>
+	function pulaLinha() {
+
+		document.write("<br>");
+	}
+
+	function mostra(frase) {
+
+		document.write(frase);
+		pulaLinha();
+	}
+
+	var numeroPensado = Math.round(Math.random() * 100);
+</script> -->
+
+<!-- <meta charset="UTF-8">
+<script>
+
+	function pulaLinha() {
+
+		document.write("<br>");
+	}
+
+	function mostra(frase) {
+
+		document.write(frase);
+		pulaLinha();
+	}
+
+	var numeroPensado = Math.round(Math.random() * 100);
+
+	var chute = parseInt(prompt("Já pensei. Qual você acha que é?"));
+
+	if (chute == numeroPensado) {
+
+		mostra("Uau! Você acertou, pois eu pensei no " + numeroPensado);
+	}
+</script> -->
+
+<!-- <meta charset="UTF-8">
+<script>
+
+	function pulaLinha() {
+
+		document.write("<br>");
+	}
+
+	function mostra(frase) {
+
+		document.write(frase);
+		pulaLinha();
+	}
+
+	function sorteia(nbr)
+	{
+		Math.round(Math.random() * nbr);
+	}
+
+	var numeroPensado = sorteia(nbr);
+
+	var chute = parseInt(prompt("Já pensei. Qual você acha que é?"));
+
+	if (chute == numeroPensado) {
+
+		mostra("Uau! Você acertou, pois eu pensei no " + numeroPensado);
+	} else {
+
+		mostra("Você errou! Eu tinha pensado no " + numeroPensado);
+	}
+</script> -->
+
+
+<!-- <meta charset="UTF-8">
+<script>
+
+	function pulaLinha() {
+
+		document.write("<br>");
+	}
+
+	function mostra(frase) {
+
+		document.write(frase);
+		pulaLinha();
+	}
+
+	function sorteia(n) {
+
+		return Math.round(Math.random() * n);
+	}
+
+	var numeroPensado = sorteia(10);
+
+
+	var chute = parseInt(prompt("Já pensei. Qual você acha que é?"));
+
+	if (chute == numeroPensado) {
+
+		mostra("Uau! Você acertou, pois eu pensei no " + numeroPensado);
+	} else {
+
+		if (chute > numeroPensado) {
+
+			mostra("Você errou! Seu chute é maior que o número pensado!");
+
+		} else {
+
+			mostra("Você errou! Seu chute é menor que o número pensado!");
+		}
+
+	}
+</script> -->
+
+<meta charset="UTF-8">
+<script>
+    function pulaLinha()
+	{
+        document.write("<br>");
+    }
+
+    function mostra(frase)
+	{
+        document.write(frase);
+        pulaLinha();
+    }
+    var contador = 20;
+    while (contador >= 0)
+	{
+      mostra(contador);
+      contador = contador - 1;
+    }
+    mostra("FIM");
+</script>
