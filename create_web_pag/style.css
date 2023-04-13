@@ -1,0 +1,92 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#banner {
+	background-color: #FFFFFF;
+	width: 100%;
+}
+
+.title {
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.principal {
+	background: #CCCCCC;
+	padding: 30px;
+}
+
+.bemvindos {
+	color: #000;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+}
+
+p {
+	color: #000;
+	font-size: 16px;
+	text-align: justify;
+}
+
+strong {
+	color: darkgreen;
+	font-size: 16px;
+	text-align: justify;
+}
+
+i strong {
+	color: blue;
+	font-size: 16px;
+	text-align: justify;
+}
+
+i {
+	color: #000;
+	font-size: 23px;
+	text-align: justify;
+}
+
+#missao {
+	color: red;
+	font-size: 20px;
+	text-align: justify;
+}
+
+.itens {
+	color: #000;
+	font-style: italic;
+	font-size: 16px;
+	text-align: justify;
+}
+
+.beneficios {
+	color: #000;
+	text-align: center;
+	font-style: italic;
+	font-size: 16px;
+	padding: 20px;
+	text-align: justify;
+}
+
+.subtitle {
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.marklist {
+	color: #000;
+	font-size: 16px;
+	width: 20%;
+	margin-right: 15%;
+	display: inline-block;
+	vertical-align: top;
+	text-align: justify;
+}
+
+.imgbeneficios {
+	width: 60%;
+}
