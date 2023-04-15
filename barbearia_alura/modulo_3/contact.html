@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Contacts - Barbearia Alura </title>
+	<link rel="stylesheet" href="../css/reset.css">
+	<link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+	<header>
+		<div class="box">
+			<h1><img src="../imagens/logo.png" alt="Vanguard Barbershop logo"></h1>
+			<nav>
+				<ul>
+					<li><a href="../modulo_1/index.html">Home</a></li>
+					<li><a href="../modulo_2/products.html">Products</a></li>
+					<li><a href="contact.html">Contacts</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<main>
+		<form id="myForm">
+			<label for="name">Name</label>
+			<input type="text" id="name" class="standard-input" required>
+
+			<label for="email">E-mail</label>
+			<input type="email" id="email" class="standard-input" required placeholder="email@domain.com">
+
+			<label for="telephone">Telephone</label>
+			<input type="tel" id="telephone" class="standard-input" required placeholder="(xx) xxxxx-xxxx">
+
+			<label for="message">Message</label>
+			<textarea id="message" cols="60" rows="10" class="standard-input" required></textarea>
+
+			<fieldset>
+				<legend>How d you prefer our contact?</legend>
+				<label for="radio-email">
+					<input type="radio" name="contact" value="email" id="radio-email">
+					Email
+				</label>
+
+				<label for="radio-telephone">
+					<input type="radio" name="contact" value="telephone" id="radio-telephone">
+					Telephone
+				</label>
+
+				<label for="radio-whatsapp">
+					<input type="radio" name="contact" value="whatsapp" id="radio-whatsapp" checked>
+					Whatsapp
+				</label>
+			</fieldset>
+			<fieldset>
+				<legend>What time do you prefer ?</legend>
+				<select>
+					<option value="option-1">Morning</option>
+					<option value="option-2">Afternoon</option>
+					<option value="option-3">Night</option>
+				</select>
+			</fieldset>
+			<label class="checkbox">
+				<input type="checkbox" name="terms" value="terms" checked>
+				I would like to receive our news by email?
+			</label>
+
+			<input type="submit" value="Submit Form" class="submit js-submit">
+		</form>
+		<table>
+			<thead>
+				<tr>
+					<th>Day</th>
+					<th>Time</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Monday and Friday</td>
+					<td>08am to 6pm</td>
+				</tr>
+				<tr>
+					<td>Weekends</td>
+					<td>09am to 5pm</td>
+				</tr>
+			</tbody>
+		</table>
+	</main>
+	<footer>
+		<img src="../imagens/logo-branco.png" alt="Vanguard Barbershop logo">
+		<p class="copyrigth">&copy; Copyright Barbearia Vanguarda 42</p>
+	</footer>
+	<script src="main.js"></script>
+</body>
+
+</html>
